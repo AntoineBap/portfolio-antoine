@@ -1,0 +1,14 @@
+[
+	{
+		"id": "kasa",
+		"title": "KASA - AGENCE DE LOCATION",
+    "language": "JS, CSS, HTML",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		"description": "Kasa est une agence de location de logements, l'application permet aux clients de mettre en location leurs biens immobiliers",
+		"date": "Janvier 2025",
+		"status": "Terminé", 
+		"images": ["https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg","https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg","https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"],
+		"tasks": "test test test test"
+	}
+	
+]
