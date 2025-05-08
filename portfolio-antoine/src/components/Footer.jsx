@@ -4,7 +4,7 @@ import "../styles/footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <div className="footer-content">
         <div className="name footer-item">Antoine Baptista Martini</div>
         <ul className="footer-links footer-item">
@@ -16,14 +16,6 @@ const Footer = () => {
               Réalisations
             </NavLink>
           </li>
-          <li className="about">
-            <NavLink
-              to="/about"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
-            >
-              À propos
-            </NavLink>
-          </li>
           <li className="contact">
             <NavLink
               to="/contact"
@@ -33,9 +25,8 @@ const Footer = () => {
             </NavLink>
           </li>
         </ul>
-        <div className="footer-item copyright">© Antoine Baptista</div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -34,8 +34,31 @@
       }
     }
 
-    .copyright {
-      color: grey;
+  }
+
+  @media (max-width: 850px) {
+    .footer-content{
+      height: 120px;
+
+      .footer-item{
+        width: 40%;
+      }
+    }
+  }
+  @media (max-width: 675px) {
+    .footer-content{
+      .footer-item{
+        padding: 0;
+      }
+    }
+  }
+  @media (max-width: 577px) {
+    .footer-content{
+      flex-direction: column;
+      .footer-item{
+
+        width: 100%;
+      }
     }
   }
 }

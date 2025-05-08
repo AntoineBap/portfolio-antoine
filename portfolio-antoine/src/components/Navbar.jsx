@@ -6,18 +6,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-        <div className="name navbar-item">
-          Antoine Baptista Martini
+        <div className="navbar-item name">
+        <NavLink to="/">
+            Antoine Baptista Martini 
+            </NavLink>
         </div>
-        <ul className="nav-links navbar-item">
+        <ul className="navbar-item">
           <li className="works">
             <NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}>
             Réalisations 
-            </NavLink>
-          </li>
-          <li className="about">
-            <NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>
-              À propos
             </NavLink>
           </li>
           <li className="contact">
