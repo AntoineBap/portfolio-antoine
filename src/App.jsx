@@ -30,7 +30,6 @@ function AppContent() {
     <div>
       <Navbar />
       <Routes>
-        {/* Redirige "/" vers "/home" si tu préfères */}
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
