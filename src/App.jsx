@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
@@ -8,10 +14,9 @@ import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import "./styles/app.scss";
 
-
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-antoine">
       <AppContent />
     </BrowserRouter>
   );
@@ -19,20 +24,23 @@ function App() {
 
 function AppContent() {
   const location = useLocation();
-  const hideFooter = location.pathname === "/contact"
+  const hideFooter = location.pathname === "/contact";
+
   return (
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* Redirige "/" vers "/home" si tu préfères */}
+        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/work/:id" element={<Work />} />
-        <Route path="/notfound" element={<NotFound />}/>
-        <Route path="*" element={<NotFound />}/>
+        <Route path="/notfound" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideFooter && <Footer />}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
