@@ -1,0 +1,164 @@
+.work{
+
+  display: flex;
+  justify-content: center;
+  
+  .work-container{
+    width: 66%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 70px;
+    
+    .title-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      h1{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(74, 94, 95);
+        margin-bottom: 16px;
+      }
+
+      h2{
+        font-size: 25px;
+        font-weight: 400;
+        color: rgb(48, 65, 66);
+        margin-bottom: 70px;
+      }
+    }
+    .top-img{
+      width: 100%;
+      .cover{ 
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+    .work-infos {
+      margin-top: 40px;
+      width: calc(100% - 40px);
+      list-style: none;
+      padding-left: 0;
+    
+      li {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+    
+        &::before {
+          content: '⬢';
+          position: absolute;
+          left: -0.2em;
+          top: 0.6em;
+          font-size: 1.2rem;
+          color: rgb(74, 94, 95);
+          line-height: 1;
+        }
+    
+        .title {
+          font-size: 30px;
+          font-weight: 700;
+          color: rgb(74, 94, 95);
+        }
+        p {
+          font-size: 30px;
+          color: rgb(74, 94, 95);
+        }
+      }
+    }
+
+    .linkDiv{
+      margin: 20px 0 10px 0;
+      a{
+        font-size: 30px;
+        color: rgb(74, 94, 95);
+        font-family: "Manrope";
+        font-weight: 500;
+      }
+    }
+    .separation-line{
+      height: 2px;
+      width: 100%;
+      margin: 40px 0;
+      background-color:  rgb(74, 94, 95);
+    }
+    #tasks-list{
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    h1{
+      align-self: flex-start;
+      font-family: Manrope;
+      color: rgb(74, 94, 95);
+      margin-bottom: 40px;
+      margin-left: 10px;
+    }
+    .img-container{
+      .website-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        border-radius: 10px;
+      }
+    }
+  }
+  @media (max-width: 1024px){
+    .work-container{
+      width: 90%;
+    }
+  }
+  @media (max-width: 480px){
+    .work-container{
+      margin-top: 40px;
+      .title-container{
+        h1{
+          font-size: 26px;
+        }
+        h2{
+          font-size: 20px;
+          margin-bottom: 40px;
+        }
+      }
+      .work-infos{
+        li{
+          &::before{
+            top: 0.2em
+          }
+          p{
+            font-size: 20px;
+          }
+          .title{
+            font-size: 20px;
+          }
+        }
+      }
+
+      .linkDiv{
+        margin: 20px 0 0 0;
+        a{
+          font-size: 24px;
+        }
+      }
+
+      h1{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  @media (max-width: 399px){
+    .work-container{
+      .title-container{
+        h1{
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

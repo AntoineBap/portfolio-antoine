@@ -1,0 +1,49 @@
+[
+	{
+		"id": "booki",
+		"title": "BOOKI - AGENCE DE VOYAGE ",
+    "language": "HTML, CSS",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165311/cover_booki_lrts8m.png",
+		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165289/cover_booki_2_1_wrnuoy.png",
+		"description": "Booki est une agence de voyage, l'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place.",
+		"date": "Novembre 2024",
+		"status": "Terminé", 
+		"link": "https://antoinebap.github.io/Projet2-OC-AntoineBaptista/",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745165438/booki_photo_snumlz.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745165403/booki_photo_1_x8igzd.png"],
+		"tasks": ["Design du site web",
+		"Création du front-end du site",
+		"Adaptation du site à tous les formats d'écran (Responsive)"]
+	},
+	{
+		"id": "kasa",
+		"title": "KASA - AGENCE DE LOCATION",
+    "language": "React.js, JS, SCSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png",
+		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png",
+		"date": "Janvier 2025",
+		"status": "Terminé", 
+		"description": "Kasa est une agence de location de logements, l'application permet aux clients de mettre en location leurs biens immobiliers, ainsi que de louer ces derniers.",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_2_frjsha.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_3_yqcjww.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_1_d5dyeb.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_4_naxbnd.png"],
+		"tasks": ["Configuration de la navigation entre les pages de l'application",
+		"Mise en place d'animations CSS (Carrousel)",
+		"Création intégrale du front-end du site avec React.js",
+		"Architecture des informations",
+		"Réalisation des wireframes & maquettes"]
+	},
+	{
+		"id": "monvieuxgrimoire",
+		"title": "MON VIEUX GRIMOIRE - NOTATION DE LIVRES",
+    "language": "JS, CSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165021/monvieuxgrimoire_ketv0o.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1745166094/monvieuxgrimoire1_1_ztvktj.png",
+		"date": "Mars 2025",
+		"status": "Terminé",
+		"link": "https://projet6-oc-antoine-baptista.vercel.app/",
+		"description": "Mon Vieux Grimoire est une application de notation de livres permettant des ses utilisateurs de poster des livres sur lesquels ils pourront mettre une note, et permettre à d'autres utilisateurs de mettre une note sur ce même livre",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_1_ikszyo.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_if88k3.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179808/vieux_grim_2_moam9d.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179883/veixu_grim_umnr5u.png"],
+		"tasks": ["Developpement du backend du site",
+		"Développement d'une API Express pour le site",
+		"Mise en place d'une base de données MongoDB"]
+	}
+	
+]

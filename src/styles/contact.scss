@@ -1,0 +1,29 @@
+.contact-container{
+  .contact-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 87px);
+
+    .email, .phone{
+      font-size: 40px;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+    .copyrights{
+      margin-top: 200px;
+      color: rgb(180, 180, 180);
+    }
+
+    
+  }
+  @media (max-width: 660px) {
+    .contact-infos{
+      .email{
+        margin-top: 4vw;
+        font-size: 6vw;
+      }
+    }
+  }
+}
