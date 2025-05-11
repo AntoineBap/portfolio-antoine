@@ -17,9 +17,9 @@ import "./styles/app.scss";
 
 function App() {
   return (
-    <HashRouter basename="/portfolio-antoine">
+    <BrowserRouter basename="/portfolio-antoine">
       <AppContent />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
