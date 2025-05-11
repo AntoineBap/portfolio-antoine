@@ -1,5 +1,5 @@
 {
-  "homepage": "https://antoinebap.github.io",
+  "homepage": "https://antoinebap.github.io/portfolio-antoine",
   "name": "portfolio-antoine",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.0.0",
