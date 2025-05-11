@@ -1,11 +1,9 @@
 import React from "react";
 import {
-  BrowserRouter,
+  HashRouter, // Remplacer BrowserRouter par HashRouter
   Routes,
   Route,
-  useLocation,
   Navigate,
-  HashRouter,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -17,9 +15,9 @@ import "./styles/app.scss";
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio-antoine">
+    <HashRouter basename="/">
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
@@ -44,5 +42,3 @@ function AppContent() {
 }
 
 export default App;
-
-
