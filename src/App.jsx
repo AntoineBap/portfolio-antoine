@@ -30,11 +30,11 @@ function AppContent() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="/home" replace />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/work/:id" element={<Work />} />
-        <Route path="/notfound" element={<NotFound />} />
+        <Route path="/" element={<Navigate to="home" replace />} />
+        <Route path="home" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="work/:id" element={<Work />} />
+        <Route path="notfound" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideFooter && <Footer />}
@@ -43,3 +43,5 @@ function AppContent() {
 }
 
 export default App;
+
+

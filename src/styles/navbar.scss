@@ -17,12 +17,13 @@ nav {
       a {
         text-decoration: none;
         color: rgb(151, 151, 151);
-
-        &:visited{
+      
+        &:visited {
           color: rgb(121, 121, 121);
           text-decoration: none;
         }
-        &.active-link{
+      
+        &.active-link {
           color: black;
           text-decoration: underline;
           text-decoration-thickness: 1px;
@@ -38,9 +39,7 @@ nav {
       margin-left: 100px;
 
       a{
-        &:visited{
           color: black;
-        }
       }
     }
   }

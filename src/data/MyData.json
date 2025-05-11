@@ -3,8 +3,8 @@
 		"id": "booki",
 		"title": "BOOKI - AGENCE DE VOYAGE ",
     "language": "HTML, CSS",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165311/cover_booki_lrts8m.png",
-		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165289/cover_booki_2_1_wrnuoy.png",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
+		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856273/1_projet_uxmf8v.jpg",
 		"description": "Booki est une agence de voyage, l'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place.",
 		"date": "Novembre 2024",
 		"status": "Terminé", 
@@ -18,7 +18,7 @@
 		"id": "kasa",
 		"title": "KASA - AGENCE DE LOCATION",
     "language": "React.js, JS, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746857125/cover_kasa_2_rqvgc1.png",
 		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png",
 		"date": "Janvier 2025",
 		"status": "Terminé", 
@@ -34,8 +34,8 @@
 		"id": "monvieuxgrimoire",
 		"title": "MON VIEUX GRIMOIRE - NOTATION DE LIVRES",
     "language": "JS, CSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165021/monvieuxgrimoire_ketv0o.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1745166094/monvieuxgrimoire1_1_ztvktj.png",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856146/2_home_jnbm8l.jpg",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856218/2_projet_jyuvig.jpg",
 		"date": "Mars 2025",
 		"status": "Terminé",
 		"link": "https://projet6-oc-antoine-baptista.vercel.app/",
@@ -43,7 +43,21 @@
 		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_1_ikszyo.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_if88k3.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179808/vieux_grim_2_moam9d.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179883/veixu_grim_umnr5u.png"],
 		"tasks": ["Developpement du backend du site",
 		"Développement d'une API Express pour le site",
-		"Mise en place d'une base de données MongoDB"]
+		"Mise en place d'une base de données MongoDB","Mise en ligne du site sur le web"]
+	},
+	{
+		"id": "ninacarducci",
+		"title": "NINA CARDUCCI - PHOTOGRAPHE",
+    "language": "CSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_1_geaqli.png",
+		"date": "Janvier 2025",
+		"status": "Terminé",
+		"description": "Ce site web est le site web d'une photographe Bordelaise, présentant sa personne ainsi que son travail par le biais d'une gallerie répertoriant tous ses travaux. De plus il permet d'entrer en contact avec la photographe pour toute demande.",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_2_lgjuvv.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_1_geaqli.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_3_zerrod.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_4_mfsjtc.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_5_ewhm8d.png"],
+		"tasks": ["Optimisation des performances du site (Images trop lourdes, fichiers doublons, etc...)",
+		"Amélioration du SEO du site",
+		"Débuggage de fonctionnalités essentielles", "Optimisation du code et de sa structure"]
 	}
 	
 ]
