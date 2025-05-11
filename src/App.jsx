@@ -5,6 +5,7 @@ import {
   Route,
   useLocation,
   Navigate,
+  HashRouter,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -16,9 +17,9 @@ import "./styles/app.scss";
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio-antoine">
+    <HashRouter basename="/portfolio-antoine">
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
