@@ -71,7 +71,36 @@
 		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"],
 		"tasks": ["Initialisation du projet",
 		"Réalisation des 'règles' du jeu (ex: Vérification du montant de cookies avant un achat, etc...)",
-		"Réalisation du CSS nécéssaire pour rendre le jeu plaisant"]
+		"Réalisation du CSS"]
+	},
+	{
+		"id": "tictactoe",
+		"title": "TIC TAC TOE - MORPION",
+    "language": "JS, CSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe-cover_1_kbei2q.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_top_img_y8jwa0.png","description": "Ce site est un mini jeu type morpion ou il faut aligner 3 signes identiques (X ou O) pour gagner, à la fin de la partie le tableau se vide pour laisser place à une nouvelle partie",
+		"date": "Décembre 2023",
+		"status": "Terminé",
+		"link": "https://antoinebap.github.io/tic-tac-toe/",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_1_ziuxmm.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_2_f6mcpc.png"],
+		"tasks": ["Initialisation du projet",
+		"Réalisation des 'règles' du jeu (ex: Vérifier à chaque coup si une combinaison gagnante est formée, etc...)",
+		"Réalisation du CSS"]
+	},
+	{
+		"id": "weather",
+		"title": "APP MÉTÉO",
+    "language": "JS, CSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather-cover_1_qyeixj.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_top_img_dvbmjz.png","description": "Ce site permet à travers une API externe (OpenWeatherMap API) de rechercher la météo en temps réel, dans n'importe quelle ville du monde grâce à la barre de recherche",
+		"status": "Terminé",
+		"link": "https://antoinebap.github.io/weather-app/",
+		"date": "Décembre 2023",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_1_ec5ceg.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_2_n5wztx.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_3_mrf9gu.png"],
+		"tasks": ["Initialisation du projet",
+		"Inclusion d'une API externe pour l'accès aux données météo (OpenWeatherMap API)",
+		"Réalisation du CSS"]
 	}
+		
 		
 ]
