@@ -67,7 +67,7 @@
 		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png","description": "Ce site est un mini jeu (type Cookie Clicker) dit à incrémentation, il faut cliquer sur l'Oréo, afin d'en obtenir d'autres et de pouvoir débloquer des bonus disponibles",
 		"date": "14 Mai 2025",
 		"status": "Terminé",
-		"link": "https://github.com/AntoineBap/ESD-Oreo-Clicker",
+		"link": "https://antoinebap.github.io/ESD-Oreo-Clicker/",
 		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"],
 		"tasks": ["Initialisation du projet",
 		"Réalisation des 'règles' du jeu (ex: Vérification du montant de cookies avant un achat, etc...)",
