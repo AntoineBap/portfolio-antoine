@@ -15,20 +15,18 @@
 		"Adaptation du site à tous les formats d'écran (Responsive)"]
 	},
 	{
-		"id": "kasa",
-		"title": "KASA - AGENCE DE LOCATION",
+		"id": "oreoclicker",
+		"title": "OREO CLICKER",
     "language": "React.js, JS, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746857125/cover_kasa_2_rqvgc1.png",
-		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png","description": "Kasa est une agence de location de logements, l'application permet aux clients de mettre en location leurs biens immobiliers, ainsi que de louer ces derniers.",
-		"date": "Janvier 2025",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/cover_oreo_clicker_1_ciuwia.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png","description": "Ce site est un mini jeu (type Cookie Clicker) dit à incrémentation, il faut cliquer sur l'Oréo, afin d'en obtenir d'autres et de pouvoir débloquer des bonus disponibles",
+		"date": "14 Mai 2025",
 		"status": "Terminé",
-		"link": "https://github.com/AntoineBap/Projet5-OC-AntoineBaptista",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_2_frjsha.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_3_yqcjww.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_1_d5dyeb.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_4_naxbnd.png"],
-		"tasks": ["Configuration de la navigation entre les pages de l'application",
-		"Mise en place d'animations CSS (Carrousel)",
-		"Création intégrale du front-end du site avec React.js",
-		"Architecture des informations",
-		"Réalisation des wireframes & maquettes"]
+		"link": "https://antoinebap.github.io/ESD-Oreo-Clicker/",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"],
+		"tasks": ["Initialisation du projet",
+		"Réalisation des 'règles' du jeu (ex: Vérification du montant de cookies avant un achat, etc...)",
+		"Réalisation du CSS"]
 	},
 	{
 		"id": "monvieuxgrimoire",
@@ -53,25 +51,11 @@
 		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747133797/nina_carducci_top-img_rwq3ug.png","description": "Ce site web est le site web d'une photographe Bordelaise, présentant sa personne ainsi que son travail par le biais d'une galerie répertoriant tous ses travaux. De plus il permet d'entrer en contact avec la photographe pour toute demande.",
 		"date": "Janvier 2025",
 		"status": "Terminé",
-		"link": "https://github.com/AntoineBap/Projet4-OC-AntoineBaptista",
+		"link": "https://antoinebap.github.io/Projet4-OC-AntoineBaptista/",
 		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_2_lgjuvv.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_1_geaqli.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_3_zerrod.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_4_mfsjtc.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_5_ewhm8d.png"],
 		"tasks": ["Optimisation des performances du site (Images trop lourdes, fichiers doublons, etc...)",
 		"Amélioration du SEO du site",
 		"Débuggage de fonctionnalités essentielles", "Optimisation du code et de sa structure"]
-	},
-	{
-		"id": "oreoclicker",
-		"title": "OREO CLICKER",
-    "language": "React.js, JS, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/cover_oreo_clicker_1_ciuwia.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png","description": "Ce site est un mini jeu (type Cookie Clicker) dit à incrémentation, il faut cliquer sur l'Oréo, afin d'en obtenir d'autres et de pouvoir débloquer des bonus disponibles",
-		"date": "14 Mai 2025",
-		"status": "Terminé",
-		"link": "https://antoinebap.github.io/ESD-Oreo-Clicker/",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"],
-		"tasks": ["Initialisation du projet",
-		"Réalisation des 'règles' du jeu (ex: Vérification du montant de cookies avant un achat, etc...)",
-		"Réalisation du CSS"]
 	},
 	{
 		"id": "tictactoe",
@@ -100,6 +84,22 @@
 		"tasks": ["Initialisation du projet",
 		"Inclusion d'une API externe pour l'accès aux données météo (OpenWeatherMap API)",
 		"Réalisation du CSS"]
+	},
+	{
+		"id": "kasa",
+		"title": "KASA - AGENCE DE LOCATION",
+    "language": "React.js, JS, SCSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746857125/cover_kasa_2_rqvgc1.png",
+		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png","description": "Kasa est une agence de location de logements, l'application permet aux clients de mettre en location leurs biens immobiliers, ainsi que de louer ces derniers.",
+		"date": "Janvier 2025",
+		"status": "Terminé",
+		"link": "https://github.com/AntoineBap/Projet5-OC-AntoineBaptista",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_2_frjsha.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_3_yqcjww.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_1_d5dyeb.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_4_naxbnd.png"],
+		"tasks": ["Configuration de la navigation entre les pages de l'application",
+		"Mise en place d'animations CSS (Carrousel)",
+		"Création intégrale du front-end du site avec React.js",
+		"Architecture des informations",
+		"Réalisation des wireframes & maquettes"]
 	}
 		
 		
