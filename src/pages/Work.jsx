@@ -48,7 +48,7 @@ const WorkDetail = () => {
         </ul>
         {work.link && (
           <div className="linkDiv">
-            <a href={work.link}>
+            <a href={work.link} target="_blank">
               VISITER LE SITE ➜
             </a>
           </div>
