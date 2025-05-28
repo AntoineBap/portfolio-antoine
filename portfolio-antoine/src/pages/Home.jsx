@@ -18,7 +18,7 @@ const Home = () => {
                 key={work.id}
                 onClick={() => navigate(`/work/${work.id}`)}
               >
-                <img src={work.cover} alt='work cover'/>
+                <div className="img-wrapper"><img src={work.cover} alt='work cover'/></div>
                 <p className="work-title">{work.title}</p>
                 <p className="work-languages">{work.language}</p>
               </button>

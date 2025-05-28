@@ -1,0 +1,66 @@
+.about-container{
+  .about-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 87px);
+
+    .about-title{
+      width: 50%;
+      text-align: center;
+      color: rgb(74, 94, 95);
+      font-size: 2.4vw;
+      font-weight: 700;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+    
+    .about{
+      text-align: center;
+      width: 50%;
+      color: #4a5e5f;
+      font-size: 1.7vw;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+    button{
+      height: 50px;
+      width: 160px;
+      border: solid 1px #4a5e5f;
+      border-radius: 25px;
+      color: #4a5e5f;
+      margin-top: 50px;
+      transition: transform 0.8s ease;
+
+      &:hover{
+        background-color: #4a5e5f;
+        color: #f8f5ee;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  @media (max-width: 1439px) {
+    .about-infos{
+      .about-title{
+        font-size: 3vw;
+      }
+      .about{
+        font-size: 1.9vw;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .about-infos{
+      .about-title{
+        font-size: 4vw;
+      }
+      .about{
+        width: 80%;
+        font-size: clamp(1rem, 2.2vw, 1.7rem);
+      }
+    }
+  }
+}
