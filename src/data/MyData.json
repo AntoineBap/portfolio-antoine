@@ -1,18 +1,19 @@
 [
 	{
-		"id": "booki",
-		"title": "BOOKI - AGENCE DE VOYAGE ",
-    "language": "HTML, CSS",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
-		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856273/1_projet_uxmf8v.jpg",
-		"description": "Booki est une agence de voyage, l'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place. Seul le CSS et HTML ont été réalisé pour que le client ait une première impression (Site Statique)",
-		"date": "Novembre 2024",
-		"status": "Terminé", 
-		"link": "https://antoinebap.github.io/Projet2-OC-AntoineBaptista/",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745165438/booki_photo_snumlz.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745165403/booki_photo_1_x8igzd.png"],
-		"tasks": ["Design du site web",
-		"Création du front-end du site",
-		"Adaptation du site à tous les formats d'écran (Responsive)"]
+		"id": "imitationgame",
+		"title": "IMITATION GAME",
+    "language": "React.js, Node.js, JS, SCSS, HTML",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/cover_e4zgua.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/topimg_w9oqhq.png",
+		"description": "Ce site est un jeu en ligne, un joueur crée un salon, puis transmet le code de la room à ses amis. Les joueurs rejoignant le lobby de la partie peuvent upload des clips mp4, qui, au lancement de la partie vont passer pour tous les joueurs. Joueurs qui devront s'enregistrer en train d'imiter le clip, une fois tous les enregistrements réalisés pour un clip, les enregistrements de chaques joueurs sont passés devant tous les autres joueurs, qui devront noter l'imitation. Le joueur avec le plus de points à la fin de la partie gagne.",
+		"date": "23 Mai 2025",
+		"status": "Terminé (Amélioration envisagées)",
+		"link": "https://imitation-game-delta.vercel.app/",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_1_rtazhl.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_2_egf8l6.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_3_uksuxr.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_4_ua5lvx.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_5_whkpfk.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_6_kvzeov.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_7_wl1bla.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_8_ryscxi.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_9_jabnw8.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_10_ssil1f.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_11_yf3yvh.png"],
+		"tasks": ["Initialisation du projet",
+		"Mise en place de socket-io pour permettre la communication entre tous les clients",
+		"Réalisation du backend (logique serveur)", "Réalisation du front-end",
+		"Réalisation du CSS"]
 	},
 	{
 		"id": "oreoclicker",
@@ -42,6 +43,21 @@
 		"tasks": ["Développement du backend du site",
 		"Développement d'une API Express pour le site",
 		"Mise en place d'une base de données MongoDB","Mise en ligne du site sur le web"]
+	},
+	{
+		"id": "booki",
+		"title": "BOOKI - AGENCE DE VOYAGE ",
+    "language": "HTML, CSS",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
+		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856273/1_projet_uxmf8v.jpg",
+		"description": "Booki est une agence de voyage, l'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place. Seul le CSS et HTML ont été réalisé pour que le client ait une première impression (Site Statique)",
+		"date": "Novembre 2024",
+		"status": "Terminé", 
+		"link": "https://antoinebap.github.io/Projet2-OC-AntoineBaptista/",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745165438/booki_photo_snumlz.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745165403/booki_photo_1_x8igzd.png"],
+		"tasks": ["Design du site web",
+		"Création du front-end du site",
+		"Adaptation du site à tous les formats d'écran (Responsive)"]
 	},
 	{
 		"id": "ninacarducci",
