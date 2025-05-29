@@ -5,7 +5,7 @@
     "language": "React.js, Node.js, JS, SCSS, HTML",
 		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/cover_e4zgua.png",
 		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/topimg_w9oqhq.png",
-		"description": "Ce site est un jeu en ligne, un joueur crée un salon, puis transmet le code de la room à ses amis. Les joueurs rejoignant le lobby de la partie peuvent upload des clips mp4, qui, au lancement de la partie vont passer pour tous les joueurs. Joueurs qui devront s'enregistrer en train d'imiter le clip, une fois tous les enregistrements réalisés pour un clip, les enregistrements de chaques joueurs sont passés devant tous les autres joueurs, qui devront noter l'imitation. Le joueur avec le plus de points à la fin de la partie gagne.",
+		"description": "Ce site est un jeu en ligne, un joueur crée un salon, puis transmet le code de la room à ses amis. Les joueurs rejoignant le lobby de la partie peuvent upload des clips mp4, qui, au lancement de la partie vont passer pour tous les joueurs. Joueurs qui devront s'enregistrer en train d'imiter le clip, une fois tous les enregistrements réalisés pour un clip, les enregistrements de chaques joueurs sont passés devant tous les autres joueurs, qui devront noter l'imitation. Le joueur avec le plus de points à la fin de la partie gagne. (NON RESPONSIVE car le jeu est destiné à un usage sur PC, cependant le responsive est dans les améliorations envisagées dans le futur) ",
 		"date": "23 Mai 2025",
 		"status": "Terminé (Amélioration envisagées)",
 		"link": "https://imitation-game-delta.vercel.app/",
