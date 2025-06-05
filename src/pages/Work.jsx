@@ -53,6 +53,13 @@ const WorkDetail = () => {
             </a>
           </div>
         )}
+        {work.github && (
+          <div className="linkDiv">
+            <a href={work.github} target="_blank">
+              LIEN DU REPO GITHUB ➜
+            </a>
+          </div>
+        )}
         <div className="separation-line"></div>
         <h1>Tâches réalisées</h1>
         <ul className="work-infos" id="tasks-list">{tasks}</ul>
