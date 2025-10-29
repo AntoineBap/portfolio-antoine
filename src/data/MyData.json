@@ -18,7 +18,7 @@
 	},
 	{
 		"id": "oreoclicker",
-		"title": "OREO CLICKER",
+		"title": "OREO",
     "language": "React, JavaScript, SCSS, HTML",
 		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/cover_oreo_clicker_1_ciuwia.png",
 		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png","description": "Ce site est un mini jeu (type Cookie Clicker) dit à incrémentation, il faut cliquer sur l'Oréo, afin d'en obtenir d'autres et de pouvoir débloquer des bonus disponibles",
