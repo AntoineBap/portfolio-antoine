@@ -25,7 +25,29 @@
             "Réalisation du CSS (Site responsive)"
         ]
     },
-    {
+	{
+		"id": "corianguegan",
+        "title": "CORIAN GUÉGAN",
+        "language": "React, Node, JavaScript, MongoDB",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764114008/image_guegan_corian_2_c6h8ap.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764114008/image_guegan_corian_waitei.png",
+        "description": "Site e-commerce de ventes de vasques en Corian pour l'entreprise GUEGAN",
+        "date": "Mi-novembre 2025",
+        "status": "En cours (v.1)",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1764114084/asddfasdqsdda_h3crlo.png",
+			"https://res.cloudinary.com/antoinebaptista/image/upload/v1764114013/asdfsadfsadfasdfsadf_f8sbyu.png"
+        ],
+        "tasks": [
+            "Création de l'API Express pour la gestion des utilisateurs",
+            "Réalisation du backend (logique serveur)",
+            "Réalisation du front-end",
+            "Réalisation du CSS (Site responsive)",
+			"Intégration du système de paiement",
+			"Implémentation d'un canvas 3D pour visualiser le produit sur mesure"
+        ]
+	}
+    ,{
         "id": "imitationgame",
         "title": "IMITATION GAME",
         "language": "React, Node, JavaScript, SCSS, HTML",
