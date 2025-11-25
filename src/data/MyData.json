@@ -1,143 +1,217 @@
 [
-	{
+    {
         "id": "museesdefrance",
-        "title": "MUSEES DE FRANCE",
-    "language": "React, Node, JavaScript, MongoDB",
+        "title": "MUSÉES DE FRANCE",
+        "language": "React, Node, JavaScript, MongoDB",
         "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764112461/image_musee_2_tnrofq.png",
-        "topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1764112462/image_musee_iy8qil.png",
-        "description": "Ce projet consiste en la création d'un site pour consulter la base de données Muséofile qui répertorie l'ensemble des musées du territoire français. Le site nous permet de lancer des recherches à propos de ces musées basées sur different critères (dans le cas de ce projet : le nom, la ville, le département,  la région, ainsi que les domaines thématiques)",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764112462/image_musee_iy8qil.png",
+        "description": "Ce projet consiste en la création d'un site pour consulter la base de données Muséofile qui répertorie l'ensemble des musées du territoire français. Le site permet de lancer des recherches sur ces musées basées sur différents critères (dans le cas de ce projet : le nom, la ville, le département, la région, ainsi que les domaines thématiques).",
         "date": "Octobre 2025",
-        "status": "Terminé, Durée : 4 jours (Amélioration envisagées)",
+        "status": "Terminé, Durée : 4 jours (Améliorations envisagées)",
         "link": "https://musee-workshop.vercel.app/",
-        "github":"https://github.com/AntoineBap/musee-workshop",
-        "images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-5_eborau.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-4_upfa2v.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-3_ptykmz.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-2_nld9lx.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217988/image-musee-1_wwo9qc.png"],
-        "tasks": ["Implémentation de l'API publique Muséofile dans le projet",
-        "Création de l'API Express pour la gestion du User",
-        "Réalisation du backend (logique serveur)", "Réalisation du front-end",
-        "Réalisation du CSS (Site responsive)"]
-    },{
-		"id": "imitationgame",
-		"title": "IMITATION GAME",
-    "language": "React, Node, JavaScript, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/cover_e4zgua.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/topimg_w9oqhq.png",
-		"description": "Ce site est un jeu en ligne ou les joueurs doivent imiter des vidéos soumises par des joueurs de la partie, puis noter les imitations de tout le monde, afin de désigner un scoreboard final et un vainqueur",
-		"date": "23 Mai 2025",
-		"status": "Terminé (Amélioration envisagées)",
-		"link": "https://imitation-game-delta.vercel.app/",
-		"github":"https://github.com/AntoineBap/imitation-game",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_1_rtazhl.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_2_egf8l6.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_3_uksuxr.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_4_ua5lvx.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_5_whkpfk.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_6_kvzeov.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_7_wl1bla.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_8_ryscxi.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_9_jabnw8.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_10_ssil1f.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_11_yf3yvh.png"],
-		"tasks": ["Initialisation du projet",
-		"Mise en place de socket-io pour permettre la communication entre tous les clients",
-		"Réalisation du backend (logique serveur)", "Réalisation du front-end",
-		"Réalisation du CSS"]
-	},
-	{
-		"id": "oreoclicker",
-		"title": "OREO CLICKER",
-    "language": "React, JavaScript, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/cover_oreo_clicker_1_ciuwia.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png","description": "Ce site est un mini jeu (type Cookie Clicker) dit à incrémentation, il faut cliquer sur l'Oréo, afin d'en obtenir d'autres et de pouvoir débloquer des bonus disponibles",
-		"date": "14 Mai 2025",
-		"status": "Terminé",
-		"link": "https://antoinebap.github.io/ESD-Oreo-Clicker/",
-		"github":"https://github.com/AntoineBap/ESD-Oreo-Clicker",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"],
-		"tasks": ["Initialisation du projet",
-		"Réalisation des 'règles' du jeu (ex: Vérification du montant de cookies avant un achat, etc...)",
-		"Réalisation du CSS"]
-	},
-	{
-		"id": "monvieuxgrimoire",
-		"title": "MON VIEUX GRIMOIRE - NOTATION DE LIVRES",
-    "language": "React, JavaScript, Express, MongoDB",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856146/2_home_jnbm8l.jpg",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856218/2_projet_jyuvig.jpg",
-		"description": "Mon Vieux Grimoire est une application de notation de livres permettant à ses utilisateurs de poster des livres sur lesquels ils pourront mettre une note, et permettre à d'autres utilisateurs de mettre une note sur ce même livre",
-		"date": "Mars 2025",
-		"status": "Terminé",
-		"link": "https://projet6-oc-antoine-baptista.vercel.app/",
-		"github":"https://github.com/AntoineBap/Projet6-OC-AntoineBaptista",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_1_ikszyo.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_if88k3.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179808/vieux_grim_2_moam9d.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745179883/veixu_grim_umnr5u.png"],
-		"tasks": ["Développement du backend du site",
-		"Développement d'une API Express pour le site",
-		"Mise en place d'une base de données MongoDB","Mise en ligne du site sur le web"]
-	},
-	{
-		"id": "booki",
-		"title": "BOOKI - AGENCE DE VOYAGE ",
-    "language": "HTML, CSS",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
-		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856273/1_projet_uxmf8v.jpg",
-		"description": "Booki est une agence de voyage, l'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place. Seul le CSS et HTML ont été réalisé pour que le client ait une première impression (Site Statique)",
-		"date": "Novembre 2024",
-		"status": "Terminé", 
-		"link": "https://antoinebap.github.io/Projet2-OC-AntoineBaptista/",
-		"github":"https://github.com/AntoineBap/Projet2-OC-AntoineBaptista",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1745165438/booki_photo_snumlz.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1745165403/booki_photo_1_x8igzd.png"],
-		"tasks": ["Design du site web",
-		"Création du front-end du site",
-		"Adaptation du site à tous les formats d'écran (Responsive)"]
-	},
-	{
-		"id": "tictactoe",
-		"title": "TIC TAC TOE - MORPION",
-    "language": "JavaScript, CSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe-cover_1_kbei2q.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_top_img_y8jwa0.png","description": "Ce site est un mini jeu type morpion ou il faut aligner 3 signes identiques (X ou O) pour gagner, à la fin de la partie le tableau se vide pour laisser place à une nouvelle partie",
-		"date": "Décembre 2023",
-		"status": "Terminé",
-		"link": "https://antoinebap.github.io/tic-tac-toe/",
-		"github":"https://github.com/AntoineBap/tic-tac-toe",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_1_ziuxmm.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_2_f6mcpc.png"],
-		"tasks": ["Initialisation du projet",
-		"Réalisation des 'règles' du jeu (ex: Vérifier à chaque coup si une combinaison gagnante est formée, etc...)",
-		"Réalisation du CSS"]
-	},
-	{
-		"id": "weather",
-		"title": "APP MÉTÉO",
-    "language": "JavaScript, CSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather-cover_1_qyeixj.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_top_img_dvbmjz.png","description": "Ce site permet, à travers une API externe (OpenWeatherMap API) de rechercher la météo en temps réel, dans n'importe quelle ville du monde grâce à la barre de recherche",
-		"status": "Terminé",
-		"link": "https://antoinebap.github.io/weather-app/",
-		"github":"https://github.com/AntoineBap/weather-app",
-		"date": "Décembre 2023",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_1_ec5ceg.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_2_n5wztx.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_3_mrf9gu.png"],
-		"tasks": ["Initialisation du projet",
-		"Inclusion d'une API externe pour l'accès aux données météo (OpenWeatherMap API)",
-		"Réalisation du CSS"]
-	},
-	{
-		"id": "kasa",
-		"title": "KASA - AGENCE DE LOCATION",
-    "language": "React, JavaScript, SCSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746857125/cover_kasa_2_rqvgc1.png",
-		"topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png","description": "Kasa est une agence de location de logements, l'application permet aux clients de mettre en location leurs biens immobiliers, ainsi que de louer ces derniers.",
-		"date": "Janvier 2025",
-		"status": "Terminé",
-		"github": "https://github.com/AntoineBap/Projet5-OC-AntoineBaptista",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_2_frjsha.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_3_yqcjww.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_1_d5dyeb.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_4_naxbnd.png"],
-		"tasks": ["Configuration de la navigation entre les pages de l'application",
-		"Mise en place d'animations CSS (Carrousel)",
-		"Création intégrale du front-end du site avec React.js",
-		"Architecture des informations",
-		"Réalisation des wireframes & maquettes"]
-	},{
-		"id": "ninacarducci",
-		"title": "NINA CARDUCCI - PHOTOGRAPHE",
-    "language": "CSS, HTML",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747133797/nina_carducci_cover_acdukw.png",
-		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1747133797/nina_carducci_top-img_rwq3ug.png","description": "Ce site web est le site web d'une photographe Bordelaise, présentant sa personne ainsi que son travail par le biais d'une galerie répertoriant tous ses travaux. De plus il permet d'entrer en contact avec la photographe pour toute demande.",
-		"date": "Janvier 2025",
-		"status": "Terminé",
-		"github": "https://antoinebap.github.io/Projet4-OC-AntoineBaptista/",
-		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_2_lgjuvv.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_1_geaqli.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_3_zerrod.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_4_mfsjtc.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_5_ewhm8d.png"],
-		"tasks": ["Optimisation des performances du site (Images trop lourdes, fichiers doublons, etc...)",
-		"Amélioration du SEO du site",
-		"Débuggage de fonctionnalités essentielles", "Optimisation du code et de sa structure"]
-	}
-		
-		
+        "github": "https://github.com/AntoineBap/musee-workshop",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-5_eborau.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-4_upfa2v.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-3_ptykmz.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-2_nld9lx.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217988/image-musee-1_wwo9qc.png"
+        ],
+        "tasks": [
+            "Implémentation de l'API publique Muséofile dans le projet",
+            "Création de l'API Express pour la gestion des utilisateurs",
+            "Réalisation du backend (logique serveur)",
+            "Réalisation du front-end",
+            "Réalisation du CSS (Site responsive)"
+        ]
+    },
+    {
+        "id": "imitationgame",
+        "title": "IMITATION GAME",
+        "language": "React, Node, JavaScript, SCSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/cover_e4zgua.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1748433200/topimg_w9oqhq.png",
+        "description": "Ce site est un jeu en ligne où les joueurs doivent imiter des vidéos soumises par les participants, puis noter les imitations de chacun, afin de désigner un classement final et un vainqueur.",
+        "date": "23 Mai 2025",
+        "status": "Terminé (Améliorations envisagées)",
+        "link": "https://imitation-game-delta.vercel.app/",
+        "github": "https://github.com/AntoineBap/imitation-game",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_1_rtazhl.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_2_egf8l6.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_3_uksuxr.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_4_ua5lvx.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_5_whkpfk.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_6_kvzeov.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_7_wl1bla.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432444/imitation_game_8_ryscxi.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_9_jabnw8.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_10_ssil1f.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1748432443/imitation_game_11_yf3yvh.png"
+        ],
+        "tasks": [
+            "Initialisation du projet",
+            "Mise en place de socket-io pour permettre la communication entre tous les clients",
+            "Réalisation du backend (logique serveur)",
+            "Réalisation du front-end",
+            "Réalisation du CSS"
+        ]
+    },
+    {
+        "id": "oreoclicker",
+        "title": "OREO CLICKER",
+        "language": "React, JavaScript, SCSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/cover_oreo_clicker_1_ciuwia.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/top_img_oreo_clicker_qo2zj9.png",
+        "description": "Ce site est un mini-jeu incrémental (type Cookie Clicker). Il faut cliquer sur l'Oreo afin d'en obtenir d'autres et de pouvoir débloquer les bonus disponibles.",
+        "date": "14 Mai 2025",
+        "status": "Terminé",
+        "link": "https://antoinebap.github.io/ESD-Oreo-Clicker/",
+        "github": "https://github.com/AntoineBap/ESD-Oreo-Clicker",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_i4dzq0.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747300492/oreo_clicker_image_2_c0lg86.png"
+        ],
+        "tasks": [
+            "Initialisation du projet",
+            "Réalisation des règles du jeu (ex: Vérification du montant de cookies avant un achat, etc.)",
+            "Réalisation du CSS"
+        ]
+    },
+    {
+        "id": "monvieuxgrimoire",
+        "title": "MON VIEUX GRIMOIRE - NOTATION DE LIVRES",
+        "language": "React, JavaScript, Express, MongoDB",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856146/2_home_jnbm8l.jpg",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856218/2_projet_jyuvig.jpg",
+        "description": "Mon Vieux Grimoire est une application de notation de livres. Elle permet aux utilisateurs de poster des livres, de les noter, et offre la possibilité aux autres utilisateurs d'évaluer ces mêmes ouvrages.",
+        "date": "Mars 2025",
+        "status": "Terminé",
+        "link": "https://projet6-oc-antoine-baptista.vercel.app/",
+        "github": "https://github.com/AntoineBap/Projet6-OC-AntoineBaptista",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_1_ikszyo.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745179756/vieux_grim_if88k3.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745179808/vieux_grim_2_moam9d.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745179883/veixu_grim_umnr5u.png"
+        ],
+        "tasks": [
+            "Développement du backend du site",
+            "Développement d'une API Express pour le site",
+            "Mise en place d'une base de données MongoDB",
+            "Mise en ligne du site sur le web"
+        ]
+    },
+    {
+        "id": "booki",
+        "title": "BOOKI - AGENCE DE VOYAGE ",
+        "language": "HTML, CSS",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856150/1_home_z4ivae.jpg",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746856273/1_projet_uxmf8v.jpg",
+        "description": "Booki est une agence de voyage. L'application permet aux clients de trouver un hébergement pour leurs vacances, ainsi que des activités à faire sur place. Seuls le CSS et le HTML ont été réalisés pour que le client ait une première impression (Site Statique).",
+        "date": "Novembre 2024",
+        "status": "Terminé",
+        "link": "https://antoinebap.github.io/Projet2-OC-AntoineBaptista/",
+        "github": "https://github.com/AntoineBap/Projet2-OC-AntoineBaptista",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165438/booki_photo_snumlz.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1745165403/booki_photo_1_x8igzd.png"
+        ],
+        "tasks": [
+            "Design du site web",
+            "Création du front-end du site",
+            "Adaptation du site à tous les formats d'écran (Responsive)"
+        ]
+    },
+    {
+        "id": "tictactoe",
+        "title": "TIC TAC TOE - MORPION",
+        "language": "JavaScript, CSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe-cover_1_kbei2q.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_top_img_y8jwa0.png",
+        "description": "Ce site est un mini-jeu de type morpion où il faut aligner 3 signes identiques (X ou O) pour gagner. À la fin de la partie, le tableau se vide pour laisser place à une nouvelle partie.",
+        "date": "Décembre 2023",
+        "status": "Terminé",
+        "link": "https://antoinebap.github.io/tic-tac-toe/",
+        "github": "https://github.com/AntoineBap/tic-tac-toe",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_1_ziuxmm.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/tic_tac_toe_img_2_f6mcpc.png"
+        ],
+        "tasks": [
+            "Initialisation du projet",
+            "Réalisation des règles du jeu (ex: Vérifier à chaque coup si une combinaison gagnante est formée, etc.)",
+            "Réalisation du CSS"
+        ]
+    },
+    {
+        "id": "weather",
+        "title": "APP MÉTÉO",
+        "language": "JavaScript, CSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather-cover_1_qyeixj.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_top_img_dvbmjz.png",
+        "description": "Ce site permet, à travers une API externe (OpenWeatherMap), de rechercher la météo en temps réel dans n'importe quelle ville du monde grâce à la barre de recherche.",
+        "status": "Terminé",
+        "link": "https://antoinebap.github.io/weather-app/",
+        "github": "https://github.com/AntoineBap/weather-app",
+        "date": "Décembre 2023",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_1_ec5ceg.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_2_n5wztx.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1747305068/weather_img_3_mrf9gu.png"
+        ],
+        "tasks": [
+            "Initialisation du projet",
+            "Inclusion d'une API externe pour l'accès aux données météo (OpenWeatherMap API)",
+            "Réalisation du CSS"
+        ]
+    },
+    {
+        "id": "kasa",
+        "title": "KASA - AGENCE DE LOCATION",
+        "language": "React, JavaScript, SCSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1746857125/cover_kasa_2_rqvgc1.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1745161046/cover_kasa_tsx7sg.png",
+        "description": "Kasa est une agence de location de logements. L'application permet aux clients de mettre en location leurs biens immobiliers, ainsi que de louer ces derniers.",
+        "date": "Janvier 2025",
+        "status": "Terminé",
+        "github": "https://github.com/AntoineBap/Projet5-OC-AntoineBaptista",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_2_frjsha.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_3_yqcjww.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_1_d5dyeb.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746712008/kasa_4_naxbnd.png"
+        ],
+        "tasks": [
+            "Configuration de la navigation entre les pages de l'application",
+            "Mise en place d'animations CSS (Carrousel)",
+            "Création intégrale du front-end du site avec React.js",
+            "Architecture des informations",
+            "Réalisation des wireframes & maquettes"
+        ]
+    },
+    {
+        "id": "ninacarducci",
+        "title": "NINA CARDUCCI - PHOTOGRAPHE",
+        "language": "CSS, HTML",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747133797/nina_carducci_cover_acdukw.png",
+        "topimg": "https://res.cloudinary.com/antoinebaptista/image/upload/v1747133797/nina_carducci_top-img_rwq3ug.png",
+        "description": "Ce projet est le site vitrine d'une photographe bordelaise. Il présente la photographe ainsi que son travail via une galerie répertoriant ses œuvres. De plus, il permet d'entrer en contact avec elle pour toute demande.",
+        "date": "Janvier 2025",
+        "status": "Terminé",
+        "github": "https://antoinebap.github.io/Projet4-OC-AntoineBaptista/",
+        "images": [
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_2_lgjuvv.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_1_geaqli.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_3_zerrod.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_4_mfsjtc.png",
+            "https://res.cloudinary.com/antoinebaptista/image/upload/v1746941220/nina_carducci_5_ewhm8d.png"
+        ],
+        "tasks": [
+            "Optimisation des performances du site (Images trop lourdes, fichiers doublons, etc.)",
+            "Amélioration du SEO du site",
+            "Débogage de fonctionnalités essentielles",
+            "Optimisation du code et de sa structure"
+        ]
+    }
 ]
