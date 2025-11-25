@@ -1,5 +1,21 @@
 [
 	{
+        "id": "museesdefrance",
+        "title": "MUSEES DE FRANCE",
+    "language": "React, Node, JavaScript, MongoDB",
+        "cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764112461/image_musee_2_tnrofq.png",
+        "topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1764112462/image_musee_iy8qil.png",
+        "description": "Ce projet consiste en la création d'un site pour consulter la base de données Muséofile qui répertorie l'ensemble des musées du territoire français. Le site nous permet de lancer des recherches à propos de ces musées basées sur different critères (dans le cas de ce projet : le nom, la ville, le département,  la région, ainsi que les domaines thématiques)",
+        "date": "Octobre 2025",
+        "status": "Terminé (Amélioration envisagées)",
+        "link": "https://musee-workshop.vercel.app/",
+        "github":"https://github.com/AntoineBap/musee-workshop",
+        "images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-5_eborau.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-4_upfa2v.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-3_ptykmz.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217987/image-musee-2_nld9lx.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1761217988/image-musee-1_wwo9qc.png"],
+        "tasks": ["Implémentation de l'API publique Muséofile dans le projet",
+        "Création de l'API Express pour la gestion du User",
+        "Réalisation du backend (logique serveur)", "Réalisation du front-end",
+        "Réalisation du CSS (Site responsive)"]
+    },{
 		"id": "imitationgame",
 		"title": "IMITATION GAME",
     "language": "React, Node, JavaScript, SCSS, HTML",
