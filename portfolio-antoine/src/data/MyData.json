@@ -1,5 +1,21 @@
 [
 	{
+		"id": "gueganshop",
+		"title": "GUEGAN SHOP",
+    "language": "React, Node, JavaScript, MongoDB, Express",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1764114008/image_guegan_corian_2_c6h8ap.png",
+		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1764114008/image_guegan_corian_waitei.png",
+		"description": "Ce site e-commerce permet de commander des plans vasques en résine Solid Surface sur mesure avec de nombreuses options de customisations",
+		"date": "Janvier 2025",
+		"status": "Version Provisoire (Amélioration Envisagées)",
+		"link": "https://guegan.vercel.app/",
+		"github":"https://github.com/AntoineBap/guegan",
+		"images": ["https://res.cloudinary.com/antoinebaptista/image/upload/v1771856244/img_1_mrzw9t.png","https://res.cloudinary.com/antoinebaptista/image/upload/v1771856243/img_6_akreg6.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1771856243/img_5_hqz8u3.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1771856243/img_3_v07xyd.png", "https://res.cloudinary.com/antoinebaptista/image/upload/v1771856243/img_4_yiqps9.png"],
+		"tasks": ["Design du site web",
+		"Création de l'API Express pour la gestion du User",
+		"Réalisation du backend (logique serveur)", "Réalisation du front-end",
+		"Réalisation du CSS (Site responsive)","Implémentation du système d'email automatique"]
+	},{
 		"id": "museesdefrance",
 		"title": "MUSEES DE FRANCE",
     "language": "React, Node, JavaScript, MongoDB",
