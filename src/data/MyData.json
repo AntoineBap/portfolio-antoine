@@ -3,7 +3,7 @@
 		"id": "gueganshop",
 		"title": "GUEGAN SHOP",
         "language": "React, Node, JavaScript, MongoDB, Express",
-		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1771858894/Free_MacBook_Pro_1_jdfazd.png",
+		"cover": "https://res.cloudinary.com/antoinebaptista/image/upload/v1771859946/Free_MacBook_Pro-1_defcye.png",
 		"topimg" : "https://res.cloudinary.com/antoinebaptista/image/upload/v1771858885/Free_MacBook_Pro_2_xwp1b1.png",
 		"description": "Ce site e-commerce permet de commander des plans vasques en résine Solid Surface sur mesure avec de nombreuses options de customisations",
 		"date": "Janvier 2025",
@@ -154,8 +154,4 @@
 		"Amélioration du SEO du site",
 		"Débuggage de fonctionnalités essentielles", "Optimisation du code et de sa structure"]
 	}	
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> 19f0de6b90b77f09c3ffe4d68ba6e9b9362d9e64
